@@ -1,1 +1,3 @@
-"Once upon a time, a club member(not) brought a basketball to the V27. It accidentally caused the fan to break. 
+"Once upon a time, a club member brought a [item] to the [place]. It accidentally caused the [item2] to [action]. 
+"Once upon a time, a club member brought a eraser to the school. It accidentally caused the word to disappear. 
+"Once upon a time, a club member(not) brought a basketball to V27. It accidentally caused the fan to break. 
