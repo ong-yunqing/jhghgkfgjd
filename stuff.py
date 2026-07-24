@@ -12,7 +12,7 @@ for i in range(input_size):
     lst.append(temporary)
 choice = input("Choose your preferred method of sorting(bubble/quick/insert/merge): ")
 while not choice.isalpha() or choice not in choices:
-    return "idiot."
+    print("idiot.")
     choice = input("Choose your preferred method of sorting(bubble/quick/insert/merge): ")
 
     
