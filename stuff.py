@@ -14,4 +14,21 @@ def bubble_sort(data):
                 data[i], data[i+1] = data[i+1], data[i]
                 swapped = True
             passes = passes -1
-            
+    return data        
+def merge (l1, l2):
+    i = 0
+    j = 0
+    newl =[]
+    while i < len(l1) and j < len(l2):
+        if l1[i] < l2[j]:
+            newl.append(l1[i])
+            i +=1
+        else:
+            newl.append(l2[j])
+            j +=1
+
+    if i < len(l1):
+        newl.extend(l1[:i])
+    else:
+        newl.extend(l2[:j])
+    return newl
