@@ -9,7 +9,7 @@ def insertion_sort(lst):
     lst[pos] = curr
     
 
-insertion_sort([4,2,4,5,10,3])
+
 
 
 input_size = int(input())
