@@ -20,7 +20,7 @@ if choice == "bubble":
     bubble_sort(lst)
 
 elif choice == "quick":
-    quick_sort(lst)
+    quicksort(lst)
 
 elif choice == "insert":
     insertion_sort(lst)
