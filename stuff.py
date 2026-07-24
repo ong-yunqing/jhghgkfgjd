@@ -39,7 +39,16 @@ def merge (l1, l2):
         newl.extend(l2[:j])
     return newl
 
-
+def merge_sort(data):
+    if len(data) <= 1:
+        return data
+    else:
+        mid = data//2
+        l1 = data[:mid]
+        l2 = data[mid:]
+        sorted_l1 = merge_sort(l1)
+        sorted_l2 = merge_sort(l2)
+        return merge(sorted_l1,sorted_l2)
 def insertion_sort(lst):
   for i in range(1, len(A)-1):
     curr = lst[i]
