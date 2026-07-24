@@ -14,5 +14,3 @@ def quicksort(lst):
             equal_lst.append(num)
     result = quicksort(less_than) + equal_lst + quicksort(greater_than)
     return result       
-          
-    
