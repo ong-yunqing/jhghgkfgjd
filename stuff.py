@@ -9,6 +9,7 @@ lst = []
 for i in range(input_size):
     temporary = int(input())
     lst.append(temporary)
+choice = input("Choose your preferred method of sorting(bubble/quick/insert/merge): ")
 
 def bubble_sort(data):
     swapped = True
