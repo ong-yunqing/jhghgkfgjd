@@ -11,13 +11,10 @@ for i in range(input_size):
     temporary = int(input())
     lst.append(temporary)
 choice = input("Choose your preferred method of sorting(bubble/quick/insert/merge): ")
-if not choice.isalpha():
+while not choice.isalpha() or choice not in choices:
     return "idiot."
     choice = input("Choose your preferred method of sorting(bubble/quick/insert/merge): ")
 
-elif choice not in choices:
-    return "idiot."
-    choice = input("Choose your preferred method of sorting(bubble/quick/insert/merge): ")
     
 if choice == "bubble":
     bubble_sort(lst)
